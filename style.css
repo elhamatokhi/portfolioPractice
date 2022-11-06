@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(images/Microverse-Student-Project-1/header-shapes\ mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  display: flex;
+  min-height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+
+.span {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.spans {
+  height: 0.4rem;
+  width: 2rem;
+  border-radius: 1rem;
+  background-color: #6070ff;
+}
+.logo {
+  color: #6070ff;
+  font-size: 18px;
+}
+.container {
+  min-height: 90vh;
+  /* background-color: blueviolet; */
+  margin: auto;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.container h1 {
+  font-size: 43px;
+  display: flex;
+}
+
+.container p {
+  color: #344563;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #7f8cff;
+  font-size: 16px;
+}
+
+.social img {
+  padding-top: 1rem;
+  margin-right: 1rem;
+}
+.social img:hover {
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
